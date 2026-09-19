@@ -1,0 +1,60 @@
+.splash{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(135deg,#111,#1b1b1b,#ff6b35);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.overlay{
+    color:white;
+}
+
+.welcome{
+    color:#FFC107;
+    letter-spacing:5px;
+}
+
+.title{
+    font-size:90px;
+    font-weight:bold;
+    color:white;
+    text-shadow:0px 0px 25px orange;
+}
+
+.meaning{
+    font-size:22px;
+    margin-top:20px;
+    line-height:40px;
+}
+
+.meaning span{
+    color:#FFC107;
+    font-weight:bold;
+}
+
+.quote{
+    margin-top:25px;
+    font-size:24px;
+    color:#f8f9fa;
+    font-style:italic;
+}
+
+.start-btn{
+    margin-top:40px;
+    padding:15px 45px;
+    border:none;
+    border-radius:50px;
+    background:#FFC107;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.start-btn:hover{
+    transform:scale(1.08);
+    background:white;
+}

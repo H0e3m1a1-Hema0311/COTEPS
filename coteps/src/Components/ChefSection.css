@@ -1,0 +1,61 @@
+.chef-section{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:80px;
+    background:#111827;
+    color:white;
+}
+
+.chef-left{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.chef-image{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    background:#ff6b35;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:140px;
+    box-shadow:0 0 40px rgba(255,107,53,.5);
+}
+
+.chef-right{
+    flex:1;
+}
+
+.chef-tag{
+    color:#FFC107;
+    font-size:20px;
+}
+
+.chef-right h2{
+    font-size:60px;
+    margin:20px 0;
+}
+
+.chef-right p{
+    font-size:20px;
+    line-height:35px;
+    color:#d1d5db;
+}
+
+.chef-features{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.feature{
+    background:#1f2937;
+    padding:20px;
+    border-radius:15px;
+    border-left:5px solid #ff6b35;
+}

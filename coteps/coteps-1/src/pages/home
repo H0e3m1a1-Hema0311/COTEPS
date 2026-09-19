@@ -1,0 +1,21 @@
+import React from 'react';
+import AIchef from '../../components/aiChef/AIchef';
+import Games from '../../components/games/Games';
+import MoodBasedRecommendations from '../../components/ui/MoodBasedRecommendations';
+import FoodStories from '../../components/ui/FoodStories';
+import './home.css';
+
+const Home = () => {
+    return (
+        <div className="home">
+            <AIchef />
+            <h1>Welcome to COTEPS!</h1>
+            <MoodBasedRecommendations />
+            <Games />
+            <FoodStories />
+            <p>Order your favorite meals and enjoy a unique food experience!</p>
+        </div>
+    );
+};
+
+export default Home;

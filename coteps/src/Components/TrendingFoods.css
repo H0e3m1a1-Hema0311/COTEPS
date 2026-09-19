@@ -1,0 +1,38 @@
+.trending-section{
+    padding:70px 50px;
+    background:#ffffff;
+}
+
+.trending-header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.trending-header h2{
+    font-size:40px;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+.trending-header p{
+    font-size:18px;
+    color:#6b7280;
+}
+
+.trending-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+@media(max-width:768px){
+
+.trending-section{
+    padding:40px 20px;
+}
+
+.trending-header h2{
+    font-size:30px;
+}
+
+}

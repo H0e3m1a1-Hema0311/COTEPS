@@ -1,0 +1,40 @@
+.meaning-section{
+    padding:80px 10%;
+    background:#fff;
+    text-align:center;
+}
+
+.meaning-section h2{
+    font-size:45px;
+    margin-bottom:50px;
+    color:#ff6b35;
+}
+
+.meaning-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.card-box{
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card-box:hover{
+    transform:translateY(-10px);
+}
+
+.card-box h3{
+    font-size:55px;
+    color:#ff6b35;
+}
+
+.card-box p{
+    margin-top:15px;
+    font-size:22px;
+    font-weight:bold;
+}

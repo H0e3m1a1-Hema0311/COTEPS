@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #ff6f61; /* A warm, inviting color for accents */
+    --secondary-color: #4a4a4a; /* A neutral color for text */
+    --background-color: #f9f9f9; /* Light background for a clean look */
+    --card-background: #ffffff; /* White background for cards */
+    --border-radius: 12px; /* Rounded corners for a modern feel */
+    --font-family: 'Helvetica Neue', Arial, sans-serif; /* Clean and modern typography */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: darken(var(--primary-color), 10%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+
+.header, .footer {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

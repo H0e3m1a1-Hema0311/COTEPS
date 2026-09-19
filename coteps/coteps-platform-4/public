@@ -1,0 +1,9 @@
+The /coteps-platform/coteps-platform/public directory is typically used for static assets in a Vite project. Since you haven't specified any particular files to include in this directory, I will provide a basic structure that is commonly found in such directories.
+
+Here are the contents for the /coteps-platform/coteps-platform/public directory:
+
+index.html
+favicon.ico
+logo.png
+
+The index.html file is the main entry point for the application, while favicon.ico and logo.png are common static assets. If you need specific contents for these files or additional assets, please let me know!

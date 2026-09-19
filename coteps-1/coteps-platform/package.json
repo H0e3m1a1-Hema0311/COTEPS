@@ -1,0 +1,30 @@
+{
+  "name": "coteps-platform",
+  "version": "1.0.0",
+  "description": "Next-generation food experience platform with premium branding and innovative user experience.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "food",
+    "delivery",
+    "experience",
+    "premium",
+    "nextjs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.0"
+  }
+}

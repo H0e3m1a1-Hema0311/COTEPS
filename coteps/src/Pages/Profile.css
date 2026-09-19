@@ -1,0 +1,75 @@
+.profile-page{
+    padding:100px 50px;
+    background:#f5f7fb;
+    min-height:100vh;
+}
+
+.profile-header{
+    text-align:center;
+}
+
+.profile-image{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:6px solid #FF6B35;
+}
+
+.profile-header h1{
+    margin-top:20px;
+    color:#111827;
+}
+
+.profile-header p{
+    color:#666;
+    margin-top:10px;
+}
+
+.profile-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin:50px 0;
+}
+
+.profile-card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.profile-card h2{
+    color:#666;
+    margin-bottom:15px;
+}
+
+.profile-card h1{
+    color:#FF6B35;
+    font-size:40px;
+}
+
+.recent-orders{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    overflow-x:auto;
+}
+
+.recent-orders table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.recent-orders th,
+.recent-orders td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+    text-align:left;
+}
+
+.recent-orders th{
+    background:#FF6B35;
+    color:white;
+}

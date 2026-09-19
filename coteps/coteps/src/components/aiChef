@@ -1,0 +1,21 @@
+import React from 'react';
+import './AiChef.css'; // Assuming you will create a CSS file for styling
+
+const AiChef = () => {
+    return (
+        <div className="ai-chef-container">
+            <div className="ai-chef-animation">
+                {/* Animation or SVG for the AI Chef Bot */}
+            </div>
+            <div className="ai-chef-welcome">
+                <h1>Welcome to COTEPS!</h1>
+                <p>Your journey to delicious food starts here. Let me guide you!</p>
+            </div>
+            <div className="ai-chef-interaction">
+                {/* Interactive elements for user engagement */}
+            </div>
+        </div>
+    );
+};
+
+export default AiChef;

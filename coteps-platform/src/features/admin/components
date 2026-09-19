@@ -1,0 +1,7 @@
+The directory /coteps-platform/coteps-platform/src/features/admin/components is intended to contain reusable components specific to the admin portal. Since you requested the contents of this directory, I will create an initial file structure for it. 
+
+Here are the contents for the directory:
+
+/coteps-platform/coteps-platform/src/features/admin/components/index.ts
+
+// This file is intentionally left blank.

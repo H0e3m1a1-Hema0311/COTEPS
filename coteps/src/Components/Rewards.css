@@ -1,0 +1,48 @@
+.rewards{
+    padding:70px 50px;
+    background:#111827;
+    color:white;
+}
+
+.rewards h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.rewards p{
+    text-align:center;
+    color:#d1d5db;
+    margin-bottom:40px;
+}
+
+.reward-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.reward-card{
+    background:#1f2937;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    transition:.3s;
+    border:2px solid transparent;
+}
+
+.reward-card:hover{
+    transform:translateY(-8px);
+    border-color:#FF6B35;
+}
+
+.reward-card h3{
+    color:#FFD166;
+    margin-bottom:15px;
+}
+
+.reward-card h1{
+    font-size:42px;
+    margin-bottom:10px;
+    color:#FF6B35;
+}
